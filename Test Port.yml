@@ -1,0 +1,4 @@
+#u (udp) first line for source, secound line for destination server
+#test is a masseges for sent
+netcat -ul -p 1519
+echo test | nc -u  10.41.21.10 1519
